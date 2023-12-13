@@ -1,16 +1,10 @@
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 30px;
-  background: greenyellow;
 
   span {
-    &:first-child {
-      font-weight: bold;
-    }
-    &:last-child {
-      font-size: 14px;
-    }
+    font-weight: bold;
   }
 }

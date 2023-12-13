@@ -3,8 +3,7 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      <span>Bymine</span>
-      <span>© Bymine Dev Mental Arithmetic Game</span>
+      <span>Bymine ©2023</span>
     </div>
   );
 };
