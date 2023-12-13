@@ -1,9 +1,59 @@
+@import "../../styles/variables.scss";
+
 .intro {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  font-weight: bold;
 
-  button {
-    width: 200px;
+  .introBox {
+    max-width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+
+    .title {
+      font-size: 28px;
+      padding-bottom: 30px;
+    }
+
+    .subTitle {
+      color: #c4c4c4;
+      padding-bottom: 30px;
+    }
+
+    .nicknameContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-bottom: 30px;
+
+      Input {
+        padding: 10px;
+      }
+    }
+
+    .playContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+
+      span {
+        align-self: flex-start;
+      }
+
+      Button {
+        margin: 0 auto;
+        background: $main-bg;
+        color: white;
+        min-width: 300px;
+        min-height: 50px;
+      }
+    }
   }
 }
